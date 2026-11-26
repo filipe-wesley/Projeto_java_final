@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="600.0" prefWidth="800.0">
+    <VBox spacing="10.0" layoutX="20.0" layoutY="20.0">
+        <Label text="Bem-vindo ao Cardápio de Curitiba!" />
+        <TextField fx:id="searchField" promptText="Digite o nome do alimento..." />
+        <Button text="Buscar" onAction="#handleSearch" />
+        <ComboBox fx:id="locationComboBox" promptText="Selecione sua localização" />
+        <Button text="Sugestão IA" onAction="#handleSuggestion" />
+        <ListView fx:id="resultsListView" />
+    </VBox>
+</AnchorPane>

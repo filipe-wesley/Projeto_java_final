@@ -1,0 +1,103 @@
+{
+  "lanchonetes": [
+    {
+      "nome": "Lanchonete do João",
+      "localizacao": {
+        "endereco": "Rua das Flores, 123",
+        "bairro": "Centro",
+        "cidade": "Curitiba",
+        "estado": "PR"
+      },
+      "cardapio": [
+        {
+          "produto": {
+            "nome": "X-Burguer",
+            "preco": 15.00,
+            "descricao": "Delicioso hambúrguer com queijo, alface e tomate."
+          },
+          "promocao": {
+            "descricao": "10% de desconto nas terças-feiras.",
+            "validade": "2023-12-31"
+          }
+        },
+        {
+          "produto": {
+            "nome": "Batata Frita",
+            "preco": 8.00,
+            "descricao": "Porção de batatas fritas crocantes."
+          },
+          "promocao": {
+            "descricao": "Compre um X-Burguer e ganhe 50% de desconto na batata.",
+            "validade": "2023-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Lanchonete da Maria",
+      "localizacao": {
+        "endereco": "Avenida Brasil, 456",
+        "bairro": "Batel",
+        "cidade": "Curitiba",
+        "estado": "PR"
+      },
+      "cardapio": [
+        {
+          "produto": {
+            "nome": "Sanduíche Natural",
+            "preco": 12.00,
+            "descricao": "Sanduíche natural com peito de frango e salada."
+          },
+          "promocao": {
+            "descricao": "Desconto de 15% para pedidos via aplicativo.",
+            "validade": "2023-12-31"
+          }
+        },
+        {
+          "produto": {
+            "nome": "Suco Natural",
+            "preco": 6.00,
+            "descricao": "Suco natural de laranja."
+          },
+          "promocao": {
+            "descricao": "Na compra de um sanduíche, o suco sai por R$ 5,00.",
+            "validade": "2023-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "nome": "Lanchonete do Pedro",
+      "localizacao": {
+        "endereco": "Rua XV de Novembro, 789",
+        "bairro": "São Francisco",
+        "cidade": "Curitiba",
+        "estado": "PR"
+      },
+      "cardapio": [
+        {
+          "produto": {
+            "nome": "Hot Dog",
+            "preco": 10.00,
+            "descricao": "Hot dog com salsicha, maionese e batata palha."
+          },
+          "promocao": {
+            "descricao": "Desconto de 20% em pedidos acima de R$ 30,00.",
+            "validade": "2023-12-31"
+          }
+        },
+        {
+          "produto": {
+            "nome": "Refrigerante",
+            "preco": 5.00,
+            "descricao": "Refrigerante de 350ml."
+          },
+          "promocao": {
+            "descricao": "Compre um hot dog e ganhe um refrigerante por R$ 4,00.",
+            "validade": "2023-12-31"
+          }
+        }
+      ]
+    }
+  ]
+}
